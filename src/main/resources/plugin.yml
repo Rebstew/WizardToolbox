@@ -1,0 +1,14 @@
+name: WizardToolbox
+main: main.WizardToolbox
+version: 1.0.0
+author: Twitter @Rebstew_
+api-version: 1.13
+softdepend: [Vault]
+permissions:
+    tempgroups.others:
+        description: Allows to check tempgroups for other players
+        default: op
+commands:
+    tempgroups:
+      description: Tells the sender about the commands of the plugin.
+      usage: /tempgroups [player]

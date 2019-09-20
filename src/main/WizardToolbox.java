@@ -30,6 +30,6 @@ public class WizardToolbox extends JavaPlugin {
     }
 
     private void initModules(){
-
+        
     }
 }
